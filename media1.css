@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 720px) {
+	nav {
+		display: block;
+		position: absolute;
+		background-color: greenyellow;
+        color: green;
+		top: 0;
+		right: 0;
+		width: 0;
+		height: 100vh;
+		padding: 4rem 0;
+		transition: .5s ease-in-out;
+	}
+    nav a {
+        font-size: 20px;
+        margin: 5px;
+        background-color: transparent;
+        padding: 1rem;
+    }
+    .fa-bars {
+    	display: block;
+    	color: chocolate;
+    	font-size: 1.5rem;
+    	z-index: 100;
+    }
+    .active {
+    	width: 100%;
+    }

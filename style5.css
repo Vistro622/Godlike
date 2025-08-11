@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: ; */
+    scroll-behavior: smooth;
+}
+.logo{
+    margin: 30px 70px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.options{
+    margin-left: 72rem;
+    margin-top: -3rem;
+    font-size: 30px;
+    font-family: cursive;
+}
+option{
+    font-size: 20px;
+    font-family: cursive;
+}

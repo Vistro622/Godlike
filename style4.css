@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: ; */
+    scroll-behavior: smooth;
+}
+.logo{
+    margin: 30px 70px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.head{
+    width: 96%;
+    border: none;
+    border-radius: 15px;
+    height: 25rem;
+    margin-left: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(vegetables.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.search{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    width: 33rem;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #f8f8f8;
+}
+.search::placeholder{
+    font-size: 17px;
+    font-family: cursive;
+}
+.fa-magnifying-glass{
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 13px 13px;
+    border: none;
+    background-color: green;
+    transition: .3s;
+}
+.solid{
+    margin-top: -50px;
+    margin-left: 40rem;
+}
+.solid a{
+    text-decoration: none;
+}
+.fa-magnifying-glass:hover{
+    color: green;
+    background-color: greenyellow;
+    box-shadow: inset 0 0 2px;
+}
+.Reliable{
+    margin-top: -19rem;
+    margin-left: 4rem;
+    font-size: 23px;
+    color: green;
+    font-family: cursive;
+}
+h5{
+    margin-top: 11rem;
+    font-size: 25px;
+    margin-left: 6rem;
+    color: green;
+    font-family: cursive;
+}
+.pizza{
+    margin-left: 10rem;
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 3rem;
+    transform: rotate(15deg);
+    box-shadow: 0 0 10px;
+    transition: .3s;
+}
+.burger{
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5rem;
+    margin-left: -30rem;
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px;
+}
+.advertise{
+    margin-top: -30rem;
+    margin-left: 46rem;
+    font-size: 60px;
+    font-family: cursive;
+    color: green;
+}
+.food{
+    display: flex;
+    justify-content: space-between;
+}
+.bread{
+    width: 18rem;
+    height: 20rem;
+    margin-left: 46rem;
+    border: none;
+    /* outline: 1px solid green; */
+    border-radius: 15px;
+    transition: .3s;
+}
+.bread:hover{
+    outline: #f8f8f8;
+    box-shadow: 0 0 8px;
+}
+.Bread{
+    padding-right: 1rem;
+    width: 20rem;
+    height: 15rem;
+}
+.Burger{
+    width: 18rem;
+    height: 20rem;
+    margin-left: -3rem;
+    border: none;
+    /* outline: 1px solid green; */
+    border-radius: 15px;
+    transition: .3s;
+}
+.Burger:hover{
+    outline: #f8f8f8;
+    box-shadow: 0 0 8px;
+}
+.borger{
+    width: 20rem;
+    padding-right: 5rem;
+    height: 15rem;
+}
+.borger1{
+    margin-left: 10rem;
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8rem;
+    transform: rotate(15deg);
+    box-shadow: 0 0 10px;
+    transition: .3s;
+}
+
+.sanwich{
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8rem;
+    margin-left: -30rem;
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px;
+}
+.food3{
+    display: flex;
+    justify-content: space-between;
+}
+.juice{
+    width: 18rem;
+    height: 20rem;
+    margin-left: 46rem;
+    border: none;
+    /* outline: 1px solid green; */
+    border-radius: 15px;
+    margin-top: -37rem;
+    transition: .3s;
+}
+.juice:hover{
+    outline: #f8f8f8;
+    box-shadow: 0 0 8px;
+}
+.Juice{
+    width: 15rem;
+    height: 15rem;
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+.pancake{
+    width: 18rem;
+    height: 20rem;
+    margin-left: -3rem;
+    border: none;
+    /* outline: 1px solid green; */
+    border-radius: 15px;
+    margin-top: -37rem;
+    transition: .3s;
+}
+.pancake:hover{
+    outline: #f8f8f8;
+    box-shadow: 0 0 8px;
+}
+.Pancake{
+    width: 15rem;
+    height: 15rem;
+}
+.food2{
+    display: flex;
+    justify-content: space-between;
+}
+.Seafood{
+    width:  47rem;
+    height: 15rem;
+    margin-left: 46rem;
+    border: none;
+    /* outline: 1px solid green; */
+    border-radius: 15px;
+    margin-top: -15rem;
+    transition: .3s;
+}
+.Seafood:hover{
+    outline: #f8f8f8;
+    box-shadow: 0 0 8px;
+}
+.seafood{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.more{
+    margin-left: 43rem;
+    margin-top: 8rem;
+    width: 10rem;
+    height: 45px;
+    border-radius: 5px;
+    padding: 1px 1px;
+    border: none;
+    background-color: rgb(4, 187, 4);
+    font-family: cursive;
+    font-size: 23px;
+    transition: .3s;
+    cursor: pointer;
+}
+.more:hover{
+    color: #f8f8f8;
+    background-color: rgb(142, 194, 64);
+}
+h2{
+    padding-left: 7rem;
+    padding-top: 2rem;
+    font-family: cursive;
+    color: green;
+    transition: .3s;
+}
+h2:hover{
+    color: greenyellow;
+}
+.bread a, .juice a, .pancake a, .Burger a{
+    text-decoration: none;
+}
+.pancake h2{
+    margin-left: -1.5rem;
+}
+.view{
+    width: 97%;
+    border: none;
+    border-radius: 15px;
+    height: 15rem;
+    margin-left: 2rem;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.548)), url(images/seafoods/food8.png);
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    color: green;
+    font-size: 20px;
+}
